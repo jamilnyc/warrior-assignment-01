@@ -71,3 +71,15 @@ Adam is dead
 Barry is dead
 Charlie has 5 strength
 ```
+
+### Assumptions
+
+You can assume the following to simplify your logic:
+
+* The input file will be well-formatted and only have valid commands.
+* The commands will always have valid data (String and integers)
+* Only existing warriors will fight each other
+
+### Extra Credit
+
+Update your program so that it works even if all the [assumptions](#assumptions) are false.
