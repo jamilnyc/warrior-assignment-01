@@ -47,13 +47,18 @@ After the second fight, Charlie wins and has 30-25 = 5 strength, while Barry die
 
 ### Output
 
-At the beginning of your program, list all warriors and their strengths.
+At the beginning of your program simply output:
 
 ```text
-=== WARRIORS ===
-Adam has 15 strength
-Barry has 40 strength
-Charlie has 30 strength
+Welcome to the Warrior Fighting Simulation!
+```
+
+Everytime a new `Warrior` is created, output:
+
+```text
+Adam was born with 15 strength
+Barry was born with 40 strength
+Charlie was born with 30 strength
 ```
 
 When a `Fight` occurs, output the result of the fight.
