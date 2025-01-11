@@ -32,8 +32,9 @@ Fight Barry Charlie
 Fight Barry Adam
 ```
 
-The command `Warrior` is followed by the `name` (String) of the warrior and their `strength` (integer). 
+The command `Warrior` is followed by the `name` (String) of the warrior and their `strength` (integer).
 This command should create a `Warrior` object with the given `name` and `strength`.
+A Warrior is _uniquely identified_ by their `name`.
 
 The command `Fight` is followed by the names of two Warriors (two Strings).
 This command should simulate a fight between the two given Warriors.
@@ -79,6 +80,7 @@ You can assume the following to simplify your logic:
 * The input file will be well-formatted and only have valid commands.
 * The commands will always have valid data (String and integers)
 * Only existing warriors will fight each other
+* Warriors will never fight themselves
 
 ### Extra Credit
 
